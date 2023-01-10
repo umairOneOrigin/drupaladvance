@@ -1,0 +1,18 @@
+name: New Theme
+type: theme
+description: This is new custom theme
+package: core
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - newtheme/global-styling
+
+base theme: olivero
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  content: Content
+  footer_first: 'Footer First'
+  footer_last: 'Footer Last'
